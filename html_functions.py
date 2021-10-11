@@ -75,8 +75,8 @@ def print_HTML_file(body, title):
 def main():
     pairs = [('bogor', 25), ('depok', 6), ('medan', 41),
              ('jakarta', 19), ('bandung', 30)]
-    high_count = 20
-    low_count = 2
+    high_count = 41
+    low_count = 6
     body = ''
     for word, cnt in pairs:
         body = body + " " + make_HTML_word(word, cnt, high_count, low_count)
